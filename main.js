@@ -1,50 +1,51 @@
 //first method
-let divisore3a
+// let divisore3a
 
-let divisore5a
+// let divisore5a
 
 
-for (let i = 1; i <= 100; i++) {
-  divisore3a = i / 3;
+// for (let i = 1; i <= 100; i++) {
+//   divisore3a = i / 3;
 
-  divisore5a = i / 5;
+//   divisore5a = i / 5;
 
-  if (Number.isInteger(divisore3a)) {
+//   if (Number.isInteger(divisore3a)) {
 
-    console.log("fizz");
+//     console.log("fizz");
     
     
-  }
+//   }
 
-  if (Number.isInteger(divisore5a)) {
+//   if (Number.isInteger(divisore5a)) {
 
-    console.log("buzz");
+//     console.log("buzz");
     
     
-  }
+//   }
 
 
-  if (Number.isInteger(divisore3a) && Number.isInteger(divisore5a)) {
+//   if (Number.isInteger(divisore3a) && Number.isInteger(divisore5a)) {
 
-    console.log("fizzbuzz");
+//     console.log("fizzbuzz");
     
     
-  }
+//   }
 
-  if (!Number.isInteger(divisore3a) && !Number.isInteger(divisore5a)) {
+//   if (!Number.isInteger(divisore3a) && !Number.isInteger(divisore5a)) {
 
-    console.log(i);
+//     console.log(i);
     
     
-  }
+//   }
 
 
-}
+// }
 
 
 
 
-// second method
+//second method
+
 // for (let i = 1; i <= 100; i++) {
     
 
@@ -88,6 +89,31 @@ for (let i = 1; i <= 100; i++) {
     
 //   }
    
-   
+//   }
 
-// }
+
+//another method
+
+for  (let i = 1; i <= 100; i++){
+  if ((i%3) == 0) {
+    console.log("fizz");
+    
+  }
+
+ if ((i%5) == 0) {
+    console.log("buzz");
+    
+  }
+
+  if (((i%5) == 0) && ((i%3) == 0)) {
+
+    console.log("fizzbuzz");
+    
+    
+  }else {
+    
+  } {
+    console.log(i);
+    
+  }
+}
