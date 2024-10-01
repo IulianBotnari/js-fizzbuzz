@@ -4,7 +4,7 @@ for (let i = 1; i <= 100; i++) {
     
 
   function divisore3(i) {
-    return i / 5;
+    return i / 3;
     
 }
 
